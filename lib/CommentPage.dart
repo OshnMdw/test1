@@ -42,7 +42,7 @@ class _CommentPageState extends State<CommentPage> {
               leading: GestureDetector(
                 onTap: () async {
                   // Display the image in large form.
-                  print("Comment Clicked");
+                  print("Comment Click");
                 },
                 child: Container(
                   height: 50.0,
