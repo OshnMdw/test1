@@ -12,7 +12,7 @@ class _CommentPageState extends State<CommentPage> {
   List filedata = [
     {
       'name': 'Didula Thavisha',
-      'pic': 'https://scontent-sin6-3.xx.fbcdn.net/v/t1.6435-9/95260672_2402887736676582_6780727696423911424_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=DXiWCUZewZIAX9yZUaQ&_nc_ht=scontent-sin6-3.xx&oh=52977364b4b7139804df56971d5cc671&oe=60F0776F',
+      'pic': 'https://picsum.photos/300/30',
       'message': 'abcd'
     },
     {
@@ -77,7 +77,7 @@ class _CommentPageState extends State<CommentPage> {
       body: Container(
         child: CommentBox(
           userImage:
-              "https://lh3.googleusercontent.com/a-/AOh14GjRHcaendrf6gU5fPIVd8GIl1OgblrMMvGUoCBj4g=s400",
+              "https://i.picsum.photos/id/464/300/30.jpg",
           child: commentChild(filedata),
           labelText: 'Write a comment...',
           withBorder: false,
@@ -88,7 +88,7 @@ class _CommentPageState extends State<CommentPage> {
               setState(() {
                 var value = {
                   'name': 'Umal Manjitha',
-                  'pic': 'https://lh3.googleusercontent.com/a-/AOh14GjRHcaendrf6gU5fPIVd8GIl1OgblrMMvGUoCBj4g=s400',
+                  'pic': 'https://i.picsum.photos/id/464/300/30.jpg',
                   'message': commentController.text
                 };
                 filedata.insert(0, value);
